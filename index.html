@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="answer"><p id="ans">0</p></div>
+<table>
+    <tr>
+        <td id="1" onclick="getvalue(1)" class="cal">1</td>
+        <td  id="2" onclick="getvalue(2)" class="cal">2</td>
+        <td id="3" onclick="getvalue(3)" class="cal">3</td>
+        <td id="*" onclick="getvalue('*')" class="sign">*</td>
+    </tr>
+
+  <tr>  
+    <td id="4" onclick="getvalue(4)" class="cal">4</td>
+    <td id="5" onclick="getvalue(5)" class="cal">5</td>
+    <td id="6" onclick="getvalue(6)" class="cal">6</td>
+    <td id="/" onclick="getvalue('/')" class="sign">/</td>
+</tr>
+
+
+<tr>
+<td id="7" onclick="getvalue(7)" class="cal">7</td>
+<td id="8" onclick="getvalue(8)" class="cal">8</td>
+<td id="9" onclick="getvalue(9)" class="cal">9</td>
+<td id="-" onclick="getvalue('-')" class="sign">-</td>
+</tr>
+
+
+<tr>
+<td id="0" onclick="getvalue(0)" class="cal">0</td>
+<td id="=" onclick="getvalue('=')" class="sign">=</td>
+<td id="+" onclick="getvalue('+')" class="sign">+</td>
+<td id="c" onclick="erase()" class="clear">C</td>
+
+</tr>
+</table>
+
+<script src="app.js"></script>
+</body>
+</html>

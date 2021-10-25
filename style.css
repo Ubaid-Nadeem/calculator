@@ -1,0 +1,33 @@
+table tr td{
+background-color: black;
+color: blanchedalmond;
+padding: 20px;
+text-align: center;
+}
+table{
+    margin: auto;
+}
+table td{
+    cursor: pointer;
+}
+table td:hover{
+    opacity: 0.8;
+}
+#answer{
+    background-color: #d7ebcd;
+    color: black;
+    width: 200px;
+    margin: auto;
+    text-align: right;
+}
+#answer p{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.clear{
+    background-color: #d7ebcd;
+    color: black;
+    /* border: 1px solid; */
+}
