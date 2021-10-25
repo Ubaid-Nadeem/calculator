@@ -51,6 +51,9 @@ function getvalue(a) {
             ans = +val1 + +val2
             // console.log(ans)
             document.getElementById('ans').innerText=ans
+            val1 = ''
+            val2 = ''
+            operator = undefined
         }
         else if (operator == '-') {
             ans = +val1 - +val2
